@@ -1,1 +1,32 @@
 https://chat.openai.com/c/a4d02ecb-3b7f-4fe7-b072-c49758702593
+
+YourAppName/
+│
+├── node_modules/
+├── public/
+├── src/                      # Frontend code (React components, etc.)
+│   └── ...
+│
+├── backend/                  # Backend code (Node.js)
+│   ├── models/               # Mongoose models
+│   │   ├── userModel.js
+│   │   ├── taskModel.js      # (To be created)
+│   │   └── ...
+│   ├── index.js              # Main server file
+│   └── ...
+│
+├── package.json
+├── .gitignore
+└── README.md
+
+
+Steps Completed So Far
+Defined the project's goals and features.
+Chose JavaScript as the main language.
+Specified additional security features.
+Discussed database features specific to the User.
+Installed Node.js and set up the backend folder.
+Successfully connected to a MongoDB database named dailyphia_db.
+Established version control with Git and linked to a remote repository.
+
+22:24:39 01.09.2023
