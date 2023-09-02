@@ -51,4 +51,4 @@ Installed Node.js and set up the backend folder.
 Successfully connected to a MongoDB database named dailyphia_db.
 Established version control with Git and linked to a remote repository.
 
-22:24:39 01.09.2023
+23:26:38 01.09.2023
