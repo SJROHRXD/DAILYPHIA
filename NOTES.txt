@@ -1,23 +1,45 @@
 https://chat.openai.com/c/a4d02ecb-3b7f-4fe7-b072-c49758702593
 
-YourAppName/
+DAILY_PHIA/
 │
-├── node_modules/
-├── public/
-├── src/                      # Frontend code (React components, etc.)
-│   └── ...
+├── dailyphia/                # Frontend Code (React + Vite, JavaScript)
 │
-├── backend/                  # Backend code (Node.js)
-│   ├── models/               # Mongoose models
-│   │   ├── userModel.js
-│   │   ├── taskModel.js      # (To be created)
-│   │   └── ...
-│   ├── index.js              # Main server file
-│   └── ...
+│   ├── node_modules
+│   ├── public/               # (Default Vite SVG)
+│   |
+│   ├── src/                  # Source Folder
+│   |   ├── assets/           # (Default React SVG)
+│   |   ├── App.css
+│   |   ├── App.jsx
+│   |   ├── index.css
+│   |   └── main.jsx
+│   |
+│   ├── .eslintrc.cjs
+│   ├── .gitignore
+│   ├── index.html
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── README.md
+│   └── vite.config.js        # Default
 │
-├── package.json
-├── .gitignore
-└── README.md
+│
+├── backend/                  # Backend (Node.js, Express, MongoDB, Mongoose)
+│
+│   ├── models/               # Mongoose Models
+│   │   ├── archiveModel.js
+│   │   ├── defaultTaskModel.js
+│   │   ├── taskModel.js        
+│   │   └── userModel.js
+│   |
+│   ├── node_modules
+│   ├── .gitignore
+│   ├── db.js                 # DB Connection file // re-org
+│   ├── index.js              # Main Server file // re-org
+│   ├── package.json
+│   ├── package-lock.json
+│   └── seed.js               # Seed file // re-org
+│
+└── NOTES.txt
 
 
 Steps Completed So Far
