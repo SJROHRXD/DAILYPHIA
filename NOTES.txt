@@ -37,18 +37,24 @@ DAILY_PHIA/
 │   ├── index.js              # Main Server file // re-org
 │   ├── package.json
 │   ├── package-lock.json
-│   └── seed.js               # Seed file // re-org
+│   ├── scheduler.js          # Cron Scheduler for Default Task Population // re-org
+│   ├── seed.js               # Seed file // re-org
+│   └── userSeed.js           # Seed file // re-org
 │
 └── NOTES.txt
 
 
-Steps Completed So Far
+Steps Completed So Far:
 Defined the project's goals and features.
-Chose JavaScript as the main language.
-Specified additional security features.
-Discussed database features specific to the User.
-Installed Node.js and set up the backend folder.
-Successfully connected to a MongoDB database named dailyphia_db.
+Installed Vite - React, Vanilla JS.
+Successfully launched project, viewed in browser.
+Installed Node.js, Express.js, Mongoose, Cron and set up the backend folder.
+Updated MongoDB and Compass installations.
+Successfully connected to backend server with confirmation.
+Successfully connected to local MongoDB database named dailyphia_db with confirmation.
 Established version control with Git and linked to a remote repository.
+Created the User, Task, and DefTask models.
+Created the scheduler for cloning default tasks into new tasks.
+Created seeds for defaultTasks and users.
 
-23:26:38 01.09.2023
+01:09:03 02.09.2023
