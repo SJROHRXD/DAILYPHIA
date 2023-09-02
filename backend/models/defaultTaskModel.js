@@ -12,11 +12,15 @@ const defTaskSchema = new Schema({
         type: String, 
         required: true 
     },
-    defDueDate: { 
-        type: Date, 
-        required: true 
+    completed: {
+        type: Boolean,
+        default: false
     },
-    // Add cloning feature
+    owner: { 
+        type: Schema.Types.ObjectId, 
+        ref: 'User',
+        required: true 
+    }
 });
 
 // Compile DefTask Model

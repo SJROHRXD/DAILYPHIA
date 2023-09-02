@@ -1,6 +1,7 @@
 const express = require('express');
-
 const connectDB = require('./db');
+
+require('./scheduler');
 
 const app = express();
 const port = 3001;
